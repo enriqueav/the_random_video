@@ -4,7 +4,7 @@
 
 Video version of [The Artist of Random](https://github.com/enriqueav/the_artist_of_random/). 
 
-![example](https://github.com/enriqueav/the-random-video/raw/master/static/example.gif)
+![example](https://raw.githubusercontent.com/enriqueav/the_random_video/master/static/example.gif)
 
 
 ## How to clone and install
@@ -71,11 +71,11 @@ Here are some examples:
 
 #### Lasso Generator
 
-![lasso](https://github.com/enriqueav/the-random-video/raw/master/static/lasso.gif)
+![lasso](https://raw.githubusercontent.com/enriqueav/the_random_video/master/static/lasso.gif)
 
 #### Explosion Generator
 
-![explosion](https://github.com/enriqueav/the-random-video/raw/master/static/explosion.gif)
+![explosion](https://raw.githubusercontent.com/enriqueav/the_random_video/master/static/explosion.gif)
 
 
 ### Background Changes
@@ -84,14 +84,13 @@ The background is always a plain BGR color.
 There are several methods to change from the current color to the next.
 Here are some examples:
 
-
 #### Curtain Background Change
 
-![curtain](https://github.com/enriqueav/the-random-video/raw/master/static/curtain.gif)
+![curtain](https://raw.githubusercontent.com/enriqueav/the_random_video/master/static/curtain.gif)
 
 #### Random Pixel Change
 
-![Capture01](https://github.com/enriqueav/the-random-video/raw/master/static/curtain.gif)
+![randompixel](https://raw.githubusercontent.com/enriqueav/the_random_video/master/static/randompixel.gif)
 
 ### Post Effects
 
@@ -101,11 +100,11 @@ Here are some examples:
 
 #### Mirror Effect
 
-![mirror](https://github.com/enriqueav/the-random-video/raw/master/static/mirror.gif)
+![mirror](https://raw.githubusercontent.com/enriqueav/the_random_video/master/static/mirror.gif)
 
 #### To Grayscale Effect
 
-![grayscale](https://github.com/enriqueav/the-random-video/raw/master/static/grayscale.gif)
+![grayscale](https://raw.githubusercontent.com/enriqueav/the_random_video/master/static/grayscale.gif)
 
 
 
