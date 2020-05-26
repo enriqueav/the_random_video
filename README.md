@@ -1,4 +1,4 @@
-# Random Video (alpha)
+# The Random Video (alpha)
 
 ## [WIP]
 
@@ -26,13 +26,13 @@ pip install -r requirements.txt
 
 To create a single 60 seconds random video:
 
-```bash
+```
 $ python3 random_video.py
 ```
 
 The command will print the general configuration of the video file and the timeline of the events:
 
-```bash
+```
 $ python random_video.py 
 Creating Video
   - file_name: ./examples/1590319663.avi
@@ -107,12 +107,11 @@ Here are some examples:
 ![grayscale](https://raw.githubusercontent.com/enriqueav/the_random_video/master/static/grayscale.gif)
 
 
-
 ## Advanced use 
 
 There are several arguments you can pass to the command
 
-```bash
+```
 $ python3 random_video.py -h
 usage: random_video.py [-h] [-s SEED] [-i IMAGE_PATH] [-d] [-q QUANTITY]
                        [-f FRAMES]
@@ -138,9 +137,47 @@ optional arguments:
                         24*60, for a 60 seconds video at 24 FPS.
 ```
 
-### What's new in version 0.1: *2020-05-24* 🇲🇽
+### Advanced example
+
+Generate 10 videos of 60 seconds (1440 frames) each, starting with the seed 771 
+and save them in a new directory, with the fixed prefix `10videos` for the name.
+Execute it in debug mode:
+
+```commandline
+mkdir results/seed771
+python random_video.py --seed 771 \
+            --debug --quantity 10 \
+            --frames 1440 \
+            --image_path results/seed771/10videos
+```
+
+After the process finishes, it will result in something like this:
+
+```commandline
+$ ls -1 results/seed771
+10videos_seed771.avi
+10videos_seed772.avi
+10videos_seed773.avi
+10videos_seed774.avi
+10videos_seed775.avi
+10videos_seed776.avi
+10videos_seed777.avi
+10videos_seed778.avi
+10videos_seed779.avi
+10videos_seed780.avi
+```
+
+### Ideas, TODO
+
+* Input a music file and use [librosa](https://github.com/librosa/librosa) to analyze it 
+and schedule the events according to the changes in the beat.
+* Add some kind of neural style transfer as post effect.
+* Allow several generators at the same time, or sequentially
+
+### What's new in version 0.1: *2020-05-26*
 
 * Initial creation of the repository. Many changes are pending.
 * Replaced Pillow with OpenCV, to be able to export to Video
 * Draw only generators, not individual shapes
 * Created the division of BG change, Generators and Post Effects
+* Uploaded the actual video generation code based on "the artist of random"
