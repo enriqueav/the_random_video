@@ -6,6 +6,11 @@ Video version of [The Artist of Random](https://github.com/enriqueav/the_artist_
 
 ![example](https://raw.githubusercontent.com/enriqueav/the_random_video/master/static/example.gif)
 
+## More Example Videos in Youtube
+
+[![example1](https://img.youtube.com/vi/SNJRu4FNoVw/0.jpg)](https://www.youtube.com/watch?v=SNJRu4FNoVw)
+
+[![example2](https://img.youtube.com/vi/X2AvT2Pb6C0/0.jpg)](https://www.youtube.com/watch?v=X2AvT2Pb6C0)
 
 ## How to clone and install
 
